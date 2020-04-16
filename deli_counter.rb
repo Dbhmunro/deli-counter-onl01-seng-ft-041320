@@ -25,4 +25,3 @@ def line (katz_deli_line)
     end
   end
 end
-  
