@@ -18,7 +18,7 @@ def line (katz_deli_line)
     loop do
       line_announce = "#{line_announce}, #{n + 1}. #{katz_deli_line[n]}"
       n += 1
-      if n >= katz_deli_line.length + 2
+      if n >= katz_deli_line.length
         break
       end
     end
