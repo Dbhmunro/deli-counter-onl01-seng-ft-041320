@@ -16,7 +16,7 @@ def line (katz_deli_line)
     line_announce = "The line is currently: 1. #{katz_deli_line[0]}"
     n = 1
     loop do
-      line_announce = "#{line_announce}, #{n + 1}. #{katz_deli_line[n]}"
+      line_announce = "#{line_announce} #{n + 1}. #{katz_deli_line[n]}"
       n += 1
       if n >= katz_deli_line.length
         break
