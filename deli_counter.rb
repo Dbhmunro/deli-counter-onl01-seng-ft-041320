@@ -21,7 +21,7 @@ def line (katz_deli_line)
       if n >= katz_deli_line.length + 2
         break
       end
-      puts line_announce
     end
+    puts line_announce
   end
 end
